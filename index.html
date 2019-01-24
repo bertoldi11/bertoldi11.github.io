@@ -1,5 +1,6 @@
 <html>
   <head>
+    <meta charset="UTF-8">
     <title>Vinícius Bertoldi - Web Development</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="http://bertoldi11.github.io/app.css">
@@ -17,27 +18,27 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Quem sou</a>
+            <a class="nav-link" href="/me">%{about: me}</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">O que faço</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Fale comigo</a>
+            <a class="nav-link" href="/contact">%{contact: me}</a>
           </li>
         </ul>
       </div>
     </nav>
     <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1>Welcome!</h1>
-          <p>I intend to make this my personal site, with contacts info and a short description about
-            what I am doing in my professional life</p>
-          <p>For now, this is just a static site. But the plan is use phoenix/elixir as backend api and consume it
-            using React</p>
+      <section>
+        <br />
+        <div class="row">
+          <div class="col">
+            <h1>Welcome!</h1>
+            <p>I intend to make this my personal site, with contacts info and a short description about
+              what I am doing in my professional life</p>
+            <p>For now, this is just a static site. But the plan is use phoenix/elixir as backend api and consume it
+              using React</p>
+          </div>
         </div>
-      </div>
+      </section>
     </div>
     <footer class="footer">
       <div class="recomendations">
